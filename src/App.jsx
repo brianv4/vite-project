@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import About from "./components/About";
+import Experience from "./components/Experience";
 import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
@@ -39,6 +40,7 @@ function App() {
         <div className="max-w-5xl mx-auto w-11/12">
           <HeroSection />
           <Services />
+          <Experience />
           <Works />
           <About />
           <Footer />
